@@ -1,0 +1,13 @@
+{
+  "name": "skill-credential-scanner",
+  "version": "1.0.0",
+  "description": "Security audit tool for scanning OpenClaw skills for hardcoded credentials",
+  "main": "scripts/scan.py",
+  "scripts": {
+    "scan": "python3 scripts/scan.py",
+    "test": "python3 scripts/scan.py /Users/josh/openclaw/skills/api-key-manager"
+  },
+  "keywords": ["security", "audit", "credentials", "yara", "skills"],
+  "author": "@justabotx",
+  "license": "MIT"
+}
